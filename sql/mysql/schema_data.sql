@@ -314,7 +314,7 @@ CREATE TABLE IF NOT EXISTS `sip_capture_call_20150407` (
   `rtp_stat` varchar(256) NOT NULL DEFAULT '',
   `type` int(2) NOT NULL DEFAULT 0,
   `node` varchar(125) NOT NULL DEFAULT '',
-  `msg` varchar(1500) NOT NULL DEFAULT '',
+  `msg` varchar(3000) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`,`date`),
   KEY `ruri_user` (`ruri_user`),
   KEY `from_user` (`from_user`),
